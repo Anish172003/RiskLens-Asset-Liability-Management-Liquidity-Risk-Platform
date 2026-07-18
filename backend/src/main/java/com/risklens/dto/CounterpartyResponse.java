@@ -1,0 +1,17 @@
+package com.risklens.dto;
+
+import com.risklens.domain.enums.CounterpartyType;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class CounterpartyResponse {
+    private Long id;
+    private String name;
+    private CounterpartyType type;
+}
