@@ -6,13 +6,18 @@ It calculates structural interest and principal cash flows in real-time, bucketi
 
 ---
 
-## 🎨 Premium Dark Glassmorphic Design & Motion System
-RiskLens features a highly polished dark-void visual design (deep `#000000` base, neon cyber green, red, and purple accents) featuring Stripe and Linear-style premium micro-interactions:
-* **Staggered Card Entrance:** Staggered load slide-and-fade animations (`index * 0.15`s delay) powered by Framer Motion.
-* **Metric Count-Ups:** Dynamic number count-up transitions from `0` to final totals over a `2.0`s duration using `react-countup` with custom Indian Rupee (`INR`) formatting.
-* **Hover Elevation & Shadow depth:** KPI cards elevate by `-6px`, scale to `1.02`, and display smooth shadow/glow transitions.
-* **Border Glow Pulses:** Highlight card entries with custom cyan and purple border glows.
-* **Accessibility Overrides:** Detects and respects user `prefers-reduced-motion` settings, dynamically bypassing transitions to prevent motion sickness.
+## ⚠️ Problem Statement
+Commercial banks and Non-Banking Financial Companies (NBFCs) face significant operational and regulatory hurdles in managing structural liquidity. Key issues include:
+* **Asset-Liability Mismatches:** Fluctuations in interest rates and varying maturity profiles of assets (e.g., long-term loans) versus liabilities (e.g., short-term retail deposits) create structural gaps, exposing institutions to funding bottlenecks or liquidity distress.
+* **Complex Cash Flow Modeling:** Dynamically projecting cash flows for complex amortization structures (bullet payments, reducing balances, periodic interest accruals) across large portfolios is computationally intensive and prone to legacy system delays.
+* **Static Risk Metrics:** Traditional ALM systems rely on rigid monthly reporting cycles, lacking real-time insights or interactive simulation tools to test portfolio adjustment scenarios.
+
+## 🎯 Objectives
+The core goals of the RiskLens platform are:
+* **Real-time Gap Ladder Visualization:** Aggregates projected cash inflows and outflows into standard regulatory maturity buckets (from `0-7 days` to `5+ years`) to monitor net funding requirements.
+* **Automated Cash Flow Projection:** Provides a robust, audited computation engine that calculates exact principal and interest schedules based on contract specifications.
+* **Interactive Scenario Advisory:** Integrates AI Copilot capabilities to simulate balance sheet adjustments, perform compliance checks, and execute database operations via natural language commands.
+* **Production-Grade Audit & Security:** Establishes an immutable audit trail capturing user authentication, CSV/PDF bulk uploads, and database modifications for regulatory compliance.
 
 ---
 
